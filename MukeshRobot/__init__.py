@@ -51,7 +51,7 @@ if ENV:
         "START_IMG", ""
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "worldwide_friend_zone")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "tamilpettikadai ")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
@@ -145,10 +145,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(2145093972)
-DEV_USERS.add(1726528906)
-DEV_USERS.add(5910057231)
-DEV_USERS.add(5824540121)
+
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
